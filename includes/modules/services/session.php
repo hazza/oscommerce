@@ -96,10 +96,6 @@
     }
 
     function stop() {
-      global $osC_Session;
-
-      $osC_Session->close();
-
       return true;
     }
   }
